@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu Mono', monospace;
+    color:white;
+}
+body{
+    background-image: url('bg.jpg');
+}
+.logo img{
+    filter: invert(100%)
+}
+.navbar{
+    margin: 30px auto;
+}
+.navbar li{
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+li a:hover{
+    color: red;
+
+}
+.logo{
+    position:absolute;
+    top:22px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    color: rgb(197, 197, 204);
+    transition-property: all;
+    transition-duration: 0.7s;
+    /* border: 2px solid rgb(232, 229, 229); */
+}
+.logo:hover{
+    left: 120px;
+    height: 120px;
+}
+.mid{
+    position:-webkit-sticky;
+    padding: 30px;
+    text-align: center;
+    margin: 122px auto;
+    height: 200px;
+    display: block;
+    width: 4000px;
+    color: rgb(201, 201, 210);
+}
+.others{
+    position:absolute;
+    top:122px;
+    right: 100px;
+    height: 100px;
+    width: 1000px;
+    display: inline-block;
+    color: rgb(197, 197, 204);
+    border: 2px solid rgb(232, 229, 229);
+}
+/* .btn{
+    font-size: 100px;
+    color: aliceblue;
+    /* padding-left: 30px; */
+    /*padding-right: 100px;
+    border: 2px solid white;
+    border-radius: 30px; */
+.text{
+    display: inline-block;
+    margin: 700px 300px;
+    font-size: 100px;
+}
+.span{
+    color: white;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+.span:hover{
+    color: grey;
+}
+.text h2{
+    color: red;
+    transition-property: all;
+transition-duration: 0.7s;
+}
+.text h2:hover{
+    color:rgb(123, 18, 18);
+}
+.btn{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 120px;
+color: white;
+border: 2px solid white;
+padding:60px 60px;
+border-radius: 40px;
+transition-property: all;
+transition-duration: 0.7s;
+}
+
+.btn:hover{
+    color: rgb(94, 94, 94);
+border-color: rgb(112, 112, 112);
+border: 3px solid white;
+}
+
+.images{
+    /* border: 2px solid white; */
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: 71.7%;
+    height: 90%;
+}
+.img{
+    height: 95%;
+    margin-top: 106px;
+    margin-bottom: 0;
+    margin-left: 750px;
+    margin-right: auto;
+    transition-property: margin-left;
+    transition-duration: 0.7s;
+
+}
+
+.img:hover{
+    margin-left:780px ;
+}
+
